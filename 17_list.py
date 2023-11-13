@@ -1,3 +1,13 @@
+'''
+Author: Huichang Shen 85936940+Saint-Diana@users.noreply.github.com
+Date: 2023-11-11 22:08:11
+LastEditors: Huichang Shen 85936940+Saint-Diana@users.noreply.github.com
+LastEditTime: 2023-11-12 14:25:38
+FilePath: \learn\17_list.py
+Description: 
+
+Copyright (c) 2023 by Huichang Shen 85936940+Saint-Diana@users.noreply.github.com, All Rights Reserved. 
+'''
 # 列表，元素可以是任意数据类型
 # 创建的两种方式：
 # 1.使用[]
@@ -44,3 +54,7 @@ print(lst1, id(lst1))
 # 生成包含10个随机数的列表
 lst2 = [random.randint(1, 100) for _ in range(10)]
 print(lst2)
+
+print('-' * 30)
+for i in range(len(lst2)):
+    print(lst2[i])
